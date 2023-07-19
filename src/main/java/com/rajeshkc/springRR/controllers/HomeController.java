@@ -13,7 +13,7 @@ public class HomeController {
     public User getHome(){
 //        return "This is a get method";
 
-        User user = new User(1,"Rajesh", 105);
+        User user = new User(1,"Rajesh", 40);
 
         return user;
     }
